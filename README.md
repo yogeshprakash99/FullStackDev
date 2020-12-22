@@ -1,3 +1,3 @@
 # Full stack Development
 
-My Full stack projects which I have learned in Udemy
+Python and Django Full Stack Web Developer Bootcamp Udemy course practice
