@@ -1,13 +1,39 @@
 /* This is a comment!
 /* Use Ctrl + / or cmd + / */
+/* symbol * signifies that it selects all elements */
 
-h1{
-    color : red;
+/*Lots of Selector Types, check out these links*/
+
+/*  http://www.w3schools.com/cssref/css_selectors.asp */
+/*  https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors  */
+/*  https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors */
+/*Class selectors start with a dot . */
+
+.firstDiv{
+    color: blue;
+}
+.secondDiv{
+    color: red;
 }
 
-li{
-    background-color : rgb(194, 226, 14);
-    border-color : blue ;
-    border-width : 1px;
-    border-style : solid;
+#singledout{
+    color: green;
+    text-decoration: underline;
+}
+
+*{
+    color: black;
+}
+
+h3 + ul{
+    border: 4px dotted purple;
+}
+
+li a{
+    color: red;
+}
+
+li a[href="www.npr.org"]{
+    color: blue;
+    border: 2px double black;
 }
