@@ -53,3 +53,11 @@ for(num = 0; num < 25; num++)
         console.log(num)
     }
 }
+
+
+function hello(name="Yogesh", title="Mr.")
+{
+    console.log("Hello "+ title + " " + name);
+    return title + " " + name;
+}
+
